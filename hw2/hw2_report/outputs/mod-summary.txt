@@ -1,0 +1,14 @@
+> summary(m3.1) 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 12.915676   0.502463  25.705  < 2e-16 ***
+V5           0.287077   0.108717   2.641  0.00873 ** 
+V8          -0.033139   0.020466  -1.619  0.10649    
+V11          0.402557   0.042078   9.567  < 2e-16 ***
+---
+
+Residual standard error: 0.3505 on 289 degrees of freedom
+
+> extractAIC(m3.1)
+[1]   10.0000 -617.0269

@@ -1,0 +1,7 @@
+> mod.lo$call
+loess(formula = y ~ V11 + V12 , data = dat2, subset = ss, 
+    span = 0.5, degree = 2)
+
+> mod.gam$call
+gam(formula = y ~ s(V5) + s(V12) + s(V17), data = dat2, 
+    subset = ss)
